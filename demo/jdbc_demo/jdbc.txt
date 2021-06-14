@@ -1,0 +1,30 @@
+software hoạt động theo nguyên tắc client-server
+protocol theo từ client server
+jdbc là công cụ đơn giản hoá việc kết nối database server
+
+một máy có 1 IP address 1 IP address có nhiều port
+jdbc cho phép nhúng sql query và trả về resultSet và visualise lên client
+
+jdbc hỗ trợ nhiều hệ quản trị csdl khác nhau
+mỗi hệ quản trị có cách connect khác nhau
+
+mỗi hệ quản trị có driver khác nhau
+
+phải đăng kí driver bằng 2 cách
+    phương thức registerDriver()
+    Class.forName
+
+connection từ app đến server chứa database
+
+Connection conn = DriverManager.getConnection(url, "user", "password")
+mỗi hệ quản trị có url khác nhau
+
+để thi hành câu lệnh sql dùng Statement
+executeUpdate : để thay đổi dữ liệu
+executeQuery : để xem dữ liệu
+
+ResultSet : chứa tập kết quản
+
+PreparedStatement : 
+
+CallableStatement :
